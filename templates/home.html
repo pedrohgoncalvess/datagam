@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<link rel="stylesheet" href="{% static 'home/home.css' %}">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&family=Roboto+Condensed:ital,wght@1,400;1,700&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page DataGAM</title>
+</head>
+<body>
+<h1>Welcome to DataGAM.</h1>
+    <h3>Website GAM for Data Analytics.</h3>
+</body>
+<ul>
+    <li><a href="{% url 'comercial' %}">Comercial</a></li>
+    <li><a href="{% url 'farma' %}">Farma</a></li>
+    <li><a href="{% url 'hospitalar' %}">Hospitalar</a></li>
+</ul>
+</html>

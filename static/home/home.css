@@ -1,0 +1,28 @@
+*{
+    color: white;
+    background-color: gray;
+    font-family: "Poppins";
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    padding-top: 100px;
+}
+
+ul {
+    list-style-type: none;
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+a:hover{
+    color: blue;
+}
+
+
