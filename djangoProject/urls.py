@@ -8,5 +8,6 @@ urlpatterns = [
     path('comercial',views.comercial,name='comercial'),
     path('hospitalar',views.comercial,name='hospitalar'),
     path('farma',views.comercial,name='farma'),
+    path('linkedisney',views.academiaec,name='academiaec')
 
 ]

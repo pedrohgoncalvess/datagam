@@ -10,5 +10,8 @@ def farma(request):
     return render(request,'hospitalar.html')
 
 def hospitalar(request):
-    return render(request,'farma.html')
+    return render(request,'hospitalar.html')
+
+def academiaec(request):
+    return render(request,'academiaec.html')
 
