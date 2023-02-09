@@ -7,7 +7,7 @@ def comercial(request):
     return render(request,'comercial.html')
 
 def farma(request):
-    return render(request,'hospitalar.html')
+    return render(request,'farma.html')
 
 def hospitalar(request):
     return render(request,'hospitalar.html')
