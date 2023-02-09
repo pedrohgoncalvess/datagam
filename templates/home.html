@@ -24,12 +24,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <title>Home page DataGAM</title>
 </head>
 <body>
+<script>
+    document.getElementById("academiaec_page").addEventListener("click",function (){
+      gtag("event","academiaecView", {" debug_mode":true});
+    });
+</script>
 <h1>Welcome to DataGAM.</h1>
     <h3>Website GAM for Data Analytics.</h3>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JZ94DB"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 </body>
 <ul>
     <li><a id="comercial_page" href="{% url 'comercial' %}">Comercial</a></li>
